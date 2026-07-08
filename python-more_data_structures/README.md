@@ -1,0 +1,1 @@
+In this directory, I practice working with dictionaries, sets, and lists — sorting, updating, merging, and transforming data using functions 
