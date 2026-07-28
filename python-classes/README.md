@@ -1,0 +1,1 @@
+This directory contains Python exercises on object-oriented programming (OOP).
