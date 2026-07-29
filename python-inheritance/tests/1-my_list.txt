@@ -2,6 +2,7 @@ MyList tests
 ============
 
 >>> MyList = __import__('1-my_list').MyList
+
 >>> my_list = MyList()
 >>> my_list.append(3)
 >>> my_list.append(1)
@@ -12,3 +13,16 @@ MyList tests
 [1, 2, 3]
 >>> print(my_list)
 [3, 1, 2]
+
+>>> my_list = MyList()
+>>> my_list.append(-5)
+>>> my_list.append(3)
+>>> my_list.append(-1)
+>>> print(my_list)
+[-5, 3, -1]
+>>> my_list.print_sorted()
+[-5, -1, 3]
+
+>>> empty_list = MyList()
+>>> empty_list.print_sorted()
+[]
