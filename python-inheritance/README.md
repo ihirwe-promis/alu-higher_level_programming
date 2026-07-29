@@ -1,0 +1,1 @@
+This task implements a lookup function that displays all attributes and methods available for any Python object using the built-in 'dir()' function.
