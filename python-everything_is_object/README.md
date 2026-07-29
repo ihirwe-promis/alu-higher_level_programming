@@ -1,0 +1,1 @@
+This project contains solutions for the ALU Higher Level Programming "Everything is Object" tasks
