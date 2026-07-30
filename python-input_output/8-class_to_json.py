@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Defines a function that returns the dictionary description of an object."""
+"""Defines a function that returns an object's dictionary description."""
 
 
 def class_to_json(obj):
-    """Return the dictionary description of an object for JSON serialization."""
+    """Return the dictionary description of an object."""
     return obj.__dict__
