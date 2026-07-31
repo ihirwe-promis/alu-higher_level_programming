@@ -1,4 +1,3 @@
 #!/bin/bash
-
-curl -s "$1" -o /tmp/body
-wc -c /tmp/body | awk '{print $1}'
+# Displays the size of the body of the response
+curl -s "$1" | wc -c
